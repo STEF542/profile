@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  background-color: #F5EFE6;
+  font-family: Raleway, arial;
+  color: #4F6F52;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+h1 {
+  color: #1A4D2E;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+h2 {
+  color:#3C5B6F;
+  font-weight: 600;
+}
+
+a {
+  color: #6a572a;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1c5221;
+  text-decoration: underline
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card-white-top, .card-white-text {
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  background-color: white;
+  width: 90%;
+  height: 200px;
+  padding: 30px;
+  margin: 30px;
+  display: flex
+}
+
+.card-white-top {
+  border: 1px solid green;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+  background-color: white;
+  width: 90%;
+  height: 200px;
+  padding: 30px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+#profile-image {
+  box-shadow: 5px 5px 3px black;
+  max-width: 100%;
+  height: auto
+}
+
+.img-circle {
+  border-radius: 50%
+}
+
+.list-inline >li {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 30px;
+  padding: 0px 20px;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
